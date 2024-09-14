@@ -1,0 +1,18 @@
+footer {
+    width: 100vw;
+    background-color: #063d1e;
+    color: $branco;
+    font-size: 17px;
+    text-align: center;
+    padding: 13px;
+
+    a {
+        color: $branco;
+        font-weight: bolder;
+        text-decoration: underline $branco;
+
+        &:hover {
+            color: $cor1;
+        }
+    }
+}

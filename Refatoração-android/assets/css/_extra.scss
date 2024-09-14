@@ -1,0 +1,20 @@
+aside {
+    background-color: $cor1;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+
+    ul {
+        list-style-position: inside;
+        list-style-type: '\2714\00A0\00A0';
+        columns: 2;
+    }
+
+    h3 {
+        background-color: $cor4;
+        color: $branco;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+}

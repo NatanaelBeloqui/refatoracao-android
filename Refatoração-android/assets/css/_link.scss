@@ -1,0 +1,16 @@
+main {
+    a {
+        font-weight: bold;
+        color: $cor5;
+        text-decoration: none;
+
+        &.externo::after {
+            content: '\1F517';
+        }
+
+        &:hover {
+            text-decoration: underline;
+            color: $cor3;
+        }
+    }
+}

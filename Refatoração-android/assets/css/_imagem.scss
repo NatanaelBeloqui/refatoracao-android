@@ -1,0 +1,11 @@
+main {
+    img {
+        width: 100%;
+
+        &.pequena {
+            max-width: 350px;
+            display: block;
+            margin: auto;
+        }
+    }
+}

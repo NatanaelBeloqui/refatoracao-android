@@ -1,0 +1,27 @@
+header {
+    background-color: $cor4;
+    min-height: 150px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, $cor2, $cor5);
+
+    h1 {
+        color: $branco;
+        font-family: $fonte-destaque;
+        font-size: 3em;
+        padding-top: 40px;
+        font-weight: normal;
+        margin-bottom: 20px;
+        text-shadow: 7px 8px 12px #0000007d;
+    }
+
+    p {
+        font-family: $fonte-padrao;
+        font-size: 1.2em;
+        color: $branco;
+        max-width: 600px;
+        margin: auto;
+        padding-bottom: 60px;
+        padding: 0px 10px 20px 10px;
+        text-shadow: 7px 8px 12px #0000007d;
+    }
+}

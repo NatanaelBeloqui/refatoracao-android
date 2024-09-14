@@ -1,0 +1,36 @@
+main {
+
+    h1, h2 {
+        font-weight: normal;
+    }
+
+    h1 {
+        color: $cor5;
+        font-family: var(--fonte-androide);
+        font-size: 2em;
+    }
+
+    h2 {
+        font-family: var(--fonte-androide);
+        color: $cor4;
+        font-size: 1.5em;
+        background-image: linear-gradient(to right, $cor1, transparent);
+        text-indent: 8px;
+    }
+
+    p {
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 2em;
+    }
+
+    strong {
+        background-color: $cor1;
+        color: $cor5;
+        font-weight: bold;
+        padding: 2px 6px;
+        border-radius: 5px;
+    }
+
+}

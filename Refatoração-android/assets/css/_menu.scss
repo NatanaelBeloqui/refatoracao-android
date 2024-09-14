@@ -1,0 +1,21 @@
+nav {
+    background-color: $cor5;
+    padding: 9px;
+    padding-left: 17px;
+    box-shadow: 0px 9px 20px 0px #00000033;
+}
+
+nav > a {
+    color: $cor1;
+    padding: 9px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.6s;
+}
+
+nav > a:hover {
+    background-color: $cor4;
+    text-decoration: underline;
+    border-radius: 9px 9px 5px 5px;
+}
